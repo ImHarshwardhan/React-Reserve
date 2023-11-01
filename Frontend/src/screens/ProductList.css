@@ -1,0 +1,28 @@
+
+.card {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+  }
+  
+  .card-body {
+    flex-grow: 1;
+    max-height: 100%;
+    overflow: hidden;
+  }
+  
+  .card-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .card-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .container{
+    padding: 50px;
+  }

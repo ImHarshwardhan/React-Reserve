@@ -1,0 +1,12 @@
+
+.nav-link {
+    background-color: #007BFF; 
+    color: #fff; 
+    padding: 0.5rem 1rem;
+  }
+  
+  .nav-link.active {
+    background-color: #0056b3;
+  }
+
+  

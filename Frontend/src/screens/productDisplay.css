@@ -1,0 +1,33 @@
+.product {
+  display: flex;
+  padding-top: 50px;
+}
+
+.image-container {
+  flex: 1;
+}
+
+.details-container {
+  flex: 1;
+  padding: 0 20px;
+  background: #edfdfe;
+}
+
+.desc{
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .product {
+      flex-direction: column; /* Stack the elements */
+      align-items: center; /* Center elements on smaller screens */
+  }
+  .details-container {
+    flex: 2; /* Adjust the size of the details container on smaller screens */
+}
+}
+
+.cart{
+  flex: auto;
+  padding: auto;
+}
